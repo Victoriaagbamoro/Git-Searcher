@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+
+} 
+
+.container-nav{
+    background-color: rgb(8, 184, 178) ;
+    height: 60px;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.nav-level{
+    display: block;
+    font-size: 2rem;
+    font-weight: 'lato';
+    text-shadow: 0 4px 0 rgb(17, 168, 163);
+    margin-top: 5px;
+    padding: 0.5em 2rem 0.7em;
+    color: #fff;
+
+}
+
+.searchContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    font-family: 'lato', sans-serif;
+     margin-top: 20px;  
+    /* height: 40vh; */
+
+
+
+}
+
+.text{
+    font-family: 'lato', sans-serif;
+    color: rgb(5, 170, 165);   
+}
+
+
+
+.lead{
+    font-size: 1.2rem;
+    font-family: 'lato';
+}
+
+input[type=text] {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(228, 219, 219) ;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+input:focus{
+    outline: 0;
+    border: 2px solid rgb(228, 219, 219) ;
+}
+
+input:hover {
+    background-color: #9dd5cf;
+    background-color: 10px;
+    outline: 0;
+}
+
+input::placeholder{
+    color: #777;
+    font-size: 1rem;
+    font-family: 'lato';
+}
+
+.footer{
+    background-color:rgb(245, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    margin-top: 10rem;
+    
+}
+
+
